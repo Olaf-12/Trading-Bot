@@ -1,0 +1,19 @@
+# TradingBotML — dependencias (Python 3.12+), versiones exactas probadas.
+
+# Conexión Deriv (Fases 1-3)
+websocket-client==1.9.2      # WebSocket con hilo receptor central
+requests==2.34.2             # REST: cuentas y OTP
+keyring==25.7.0              # almacén seguro de secretos del SO
+
+# Datos y ML (Fases 4-5)
+numpy==2.5.5
+pandas==3.1.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+joblib==1.6.0
+
+# GUI (Fase 6)
+PySide6-Essentials==6.12.0
+
+# Pruebas
+pytest==9.2.0
